@@ -1,0 +1,150 @@
+body {
+    background-color: #f1f4fe;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+header {
+    background-color: #e0e6fd;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    color: #202020;
+    padding-top: 12px;
+    border-bottom: 2px solid #202020;
+}
+
+footer {
+    background-color: #202020;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+a {
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    background-color: #b7c7fa;
+    text-decoration: none;
+    color: #202020;
+    border-radius: 2px;
+}
+
+a.current-page {
+    background-color: #99a8d9;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #99a8d9;
+    border-style: none;
+    box-shadow: inset 2px 2px 5px #8999ce;
+}
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-width: 1000px;
+}
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+    max-width: 1000px;
+}
+
+.flex-child {
+    text-align: left;
+
+} 
+
+.flex-child h2 {
+    text-align: left;
+} 
+
+.flex-child:first-child {
+    width: 1000px;
+}
+
+.flex-child img{
+    max-width: 80%;
+    min-width: 10%;
+    height: auto;
+}
+
+#werkervaring {
+    border-collapse: collapse;
+    width: 80%;
+}
+  
+  #werkervaring td, #werkervaring th {
+    border: 1px solid  #202020;
+    padding: 8px;
+}
+  
+  #werkervaring tr:nth-child(even){background-color: #e0e6fd;}
+ 
+  #werkervaring th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #202020;
+    color: white;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+  input[type=submit] {
+    background-color: #b7c7fa;
+    color: #202020;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+  input[type=submit]:hover {
+    background-color: #99a8d9;
+    box-shadow: inset 2px 2px 5px #8999ce;
+}
+  
+  .container {
+    border-radius: 2px;
+    background-color: #e0e6fd;
+    padding: 5%;
+    margin-left: 50px;
+}
